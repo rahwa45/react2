@@ -53,7 +53,7 @@ const cardData = [
   },
 ];
 
-  const Cardlist = () => {
+  const CardList = () => {
     return (
       <div className="card-list">
         {cardData.map((card, index) => (
@@ -63,7 +63,7 @@ const cardData = [
     );
   };
   
-export default Cardlist;
+export default CardList;
  
  
 
